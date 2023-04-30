@@ -20,15 +20,15 @@
     <div class="page-wrapper">
 
 
-        <header class="js-header header">
-            <div class="containers">
+        <header class="">
+            <div class="containers" id="containers">
                 <div class="logo">
                     <a href="./index.html">
                         <img src="./images/codar-logo.png" alt="">
                     </a>
                 </div>
                 <nav>
-                    <input type="checkbox" name="" id="show-menu">
+                    <input type="checkbox" name="" id="show-menu" class="checkbox">
                     <ul>
                         <label for="show-menu">
                             <i class="icon-close close"></i>
@@ -62,47 +62,39 @@
                                         </div>
                                         <div class="col-md-6 col-lg-2 mb-3 mb-lg-0">
                                             <div class="list-group list-group-flush">
-                                                <a href="" class="list-group-item list-group-item-action">REACT</a>
-                                                <a href="" class="list-group-item list-group-item-action">C++</a>
-                                                <a href="" class="list-group-item list-group-item-action">HTML &
+                                                <a href="./react.html" class="list-group-item list-group-item-action">REACT</a>
+                                                <a href="./c-plus.html" class="list-group-item list-group-item-action">C++</a>
+                                                <a href="./html-css.html" class="list-group-item list-group-item-action">HTML &
                                                     CSS3</a>
-                                                <a href="" class="list-group-item list-group-item-action">DOCKER</a>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
-                                            <div class="list-group list-group-flush">
-                                                <a href="" class="list-group-item list-group-item-action">PYTHON</a>
-                                                <a href="" class="list-group-item list-group-item-action">JAVASCRIPT</a>
-                                                <a href="" class="list-group-item list-group-item-action">JAVA</a>
-                                                <a href="" class="list-group-item list-group-item-action">FLUTTER</a>
+                                            <div class="col-md-6 col-lg-3 mb-3 mb-lg-0">
+                                                <div class="list-group list-group-flush">
+                                                    <a href="./python.html" class="list-group-item list-group-item-action">PYTHON</a>
+                                                    <a href="./javascript.html" class="list-group-item list-group-item-action">JAVASCRIPT</a>
+                                                    <a href="./java.html" class="list-group-item list-group-item-action">JAVA</a>
+                                                </div>
                                             </div>
-                                        </div>
                                         <div class="col-md-6 col-lg-2 mb-3 mb-md-0">
                                             <div class="list-group list-group-flush">
-                                                <a href="" class="list-group-item list-group-item-action">DJANGO</a>
-                                                <a href="" class="list-group-item list-group-item-action">GIT/GITHUB</a>
-                                                <a href="" class="list-group-item list-group-item-action">DATA
+                                                <a href="./django.html" class="list-group-item list-group-item-action">DJANGO</a>
+                                                <a href="./github.html" class="list-group-item list-group-item-action">GIT/GITHUB</a>
+                                                <a href="./data-science.html" class="list-group-item list-group-item-action">DATA
                                                     SCIENCE</a>
-                                                <a href="" class="list-group-item list-group-item-action">NODE JS</a>
+                                                </div>
                                             </div>
-                                        </div>
-                                        <div class="col-md-6 col-lg-3">
-                                            <div class="list-group list-group-flush">
-                                                <a href="" class="list-group-item list-group-item-action">DIGITAL
-                                                    MARKETING</a>
-                                                <a href="" class="list-group-item list-group-item-action">CYBER
-                                                    SECURITY</a>
-                                                <a href="" class="list-group-item list-group-item-action">BACKEND
-                                                    DEVELOPMENT</a>
-                                                <a href="" class="list-group-item list-group-item-action">FULL STACK
-                                                    DEVELOPMENT</a>
+                                            <div class="col-md-6 col-lg-3">
+                                                <div class="list-group list-group-flush">
+                                                    <a href="./sql.html" class="list-group-item list-group-item-action">SQL</a>
+                                                    <a href="./node-js.html" class="list-group-item list-group-item-action">NODE JS</a>
+                                                    <a href="./docker.html" class="list-group-item list-group-item-action">DOCKER</a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </li>
-                        <li><a href="">Contact</a></li>
+                            </li>
+                            <li><a href="">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="menu">
@@ -122,9 +114,10 @@
         <section class="banner">
             <div class="banner-text">
                 <h1>The Ultimate HTML/CSS Mastery Series</h1>
-                <p>Everything you need to build fast and <br> beautiful websites with HTML5 and CSS3 in <br> one bundle</p>
+                <p>Everything you need to build fast and <br> beautiful websites with HTML5 and CSS3 in <br> one bundle
+                </p>
                 <div class="enroll">
-                    <a href="">
+                    <a href="#payment">
                         <button><i class="icon-shopping-cart m-lg-1 m-md-1 m-sm-1 m-1"></i>Enroll in Course</button>
                     </a>
                 </div>
@@ -135,22 +128,27 @@
         <section class="learn">
             <div class="container-lg">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-8 col-md-7 col-sm-12 col-12">
                         <div class="zero">
-                            <h1>Complete HTML5/CSS3 Course from Zero to Hero</h1>
-                            <p>A fun, comprehensive and beginner-friendly course that teaches you all the skills you need to build professional-quality websites with HTML5 and CSS3.</p>
-                            <p>he first part teaches you the fundamentals, the second part explores advanced concepts and the third part puts everything together to build and deploy a real website.</p>
-                            <p>Whether you’re an absolute beginner wanting to learn web development from scratch, or you know a bit of HTML5/CSS3 and need a refresher course to fill the gaps, this course will help you achieve your goals.</p>
+                            <h1>Complete HTML5/CSS3 Course from <br> Zero to Hero</h1>
+                            <p>A fun, comprehensive and beginner-friendly course that teaches <br> you all the skills
+                                you need to build professional-quality websites <br> with HTML5 and CSS3.</p>
+                            <p>The first part teaches you the fundamentals, the second part <br> explores advanced
+                                concepts and the third part puts everything <br> together to build and deploy a real
+                                website.</p>
+                            <p>Whether you’re an absolute beginner wanting to learn web <br> development from scratch,
+                                or you know a bit of HTML5/CSS3 <br> and need a refresher course to fill the gaps, this
+                                course will help <br> you achieve your goals.</p>
                             <div class="enroll">
-                                <a href="">
+                                <a href="#payment">
                                     <button><i class="icon-shopping-cart"></i>Enroll Now</button>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-5 col-sm-6 col-12">
                         <div class="outline">
-                            <div class="style"></div>
+                            <div class="style mt-sm-5 mt-5"></div>
                             <div class="line-1">
                                 <p><i class="icon-bar-chart"></i>beginner</p>
                                 <p><i class="icon-notifications"></i>lifetime access</p>
@@ -173,12 +171,15 @@
                     <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                             <ul>
-                                <li><img src="./images/checked (1).png" alt=""> Learn the fundamentals of web development</li>
+                                <li><img src="./images/checked (1).png" alt=""> Learn the fundamentals of web
+                                    development</li>
                                 <li><img src="./images/checked (1).png" alt=""> Structure your web pages using HTML5
                                 </li>
                                 <li><img src="./images/checked (1).png" alt=""> Make beautiful web pages using CSS3</li>
-                                <li><img src="./images/checked (1).png" alt=""> Master mobile-first responsive design</li>
-                                <li><img src="./images/checked (1).png" alt=""> Create layouts with Flex and Grid layout systems</li>
+                                <li><img src="./images/checked (1).png" alt=""> Master mobile-first responsive design
+                                </li>
+                                <li><img src="./images/checked (1).png" alt=""> Create layouts with Flex and Grid layout
+                                    systems</li>
                             </ul>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -187,7 +188,8 @@
                                 <li><img src="./images/checked (1).png" alt=""> Create beautiful typography
                                 </li>
                                 <li><img src="./images/checked (1).png" alt=""> Build forms with data validation</li>
-                                <li><img src="./images/checked (1).png" alt=""> Write clean, maintainable, object-oriented CSS3</li>
+                                <li><img src="./images/checked (1).png" alt=""> Write clean, maintainable,
+                                    object-oriented CSS3</li>
                                 <li><img src="./images/checked (1).png" alt=""> Host your code on GitHub</li>
                             </ul>
                         </div>
@@ -200,7 +202,8 @@
 
         <section class="real-work">
             <div class="real-work-text">
-                <h3>A perfectly-structured course packed with exercises, solutions, and a <br> real project. Learn and understand the what's, why's and how's.</h3>
+                <h3>A perfectly-structured course packed with exercises, solutions, and a <br> real project. Learn and
+                    understand the what's, why's and how's.</h3>
             </div>
         </section>
 
@@ -230,7 +233,8 @@
                                 <h4 class="title">
                                     The Ultimate HTML5 & CSS3 Series: Part 2</h4>
                                 <p class="description">
-                                    Master advanced HTML5 & CSS3 concepts behind fast, beautiful and responsive websites</p>
+                                    Master advanced HTML5 & CSS3 concepts behind fast, beautiful and responsive websites
+                                </p>
                             </div>
                         </div>
                     </a>
@@ -296,7 +300,7 @@
 
 
 
-        <section class="payment">
+        <section class="payment" id="payment">
             <div class="container-lg">
                 <div class="payment-text">
                     <h1>React is a highly-demanded skill in the job market!</h1>
@@ -317,7 +321,9 @@
                             <div class="plan-name">Limited time at this price</div>
                         </div>
                         <div class="price-button">
-                            <button class="cta">Buy Now</button>
+                            <a href="./payment.html">
+                                <button class="cta">Buy Now</button>
+                            </a>
                         </div>
                     </div>
 
@@ -334,26 +340,30 @@
                             <div class="plan-name">Cancel at anytime</div>
                         </div>
                         <div class="price-button">
-                            <button class="cta" id="cta">Subscribe and save</button>
+                            <a href="./payment.html">
+                                <button class="cta" id="cta">Subscribe and save</button>
+                            </a>
                         </div>
-                      </div>
+                    </div>
 
                     <div class="price-column col-lg-4 col-md-4 col-sm-12 col-12">
                         <div class="price-header">
-                            <div class="single-course">Five Course <br> Payment</div>
-                            <p>Own it forever</p>
+                            <div class="single-course">All Access <br> membership</div>
+                            <p>Access all courses</p>
                             <div class="divider"></div>
                             <div class="price">
                                 <div class="dollar-sign">$</div>
-                                20 <span class=" feature inactive" style="font-size: 1rem;">$149</span>
-                                <!-- <div class="per-month">/mo</div> -->
+                                $29
+                                <div class="per-month">/mo</div>
                             </div>
-                            <div class="plan-name">Limited time at this price</div>
+                            <div class="plan-name">Cancel at anytime</div>
                         </div>
                         <div class="price-button">
-                            <button class="cta">Buy Now</button>
+                            <a href="./payment.html">
+                                <button class="cta">Buy Now</button>
+                            </a>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -395,49 +405,43 @@
                     <div class="footer-2 col-lg-3 col-md-6 col-sm-6 col-6">
                         <h5>Courses</h5>
                         <p>
-                            <a href="">React</a>
+                            <a href="./react.html">React</a>
                         </p>
                         <p>
-                            <a href="">C++</a>
+                            <a href="./c-plus.html">C++</a>
                         </p>
                         <p>
-                            <a href="">HTML & CSS3</a>
+                            <a href="./html-css.html">HTML & CSS3</a>
                         </p>
                         <p>
-                            <a href="">Docker</a>
+                            <a href="./docker.html">Docker</a>
                         </p>
                         <p>
-                            <a href="">Python</a>
+                            <a href="./python.html">Python</a>
                         </p>
                         <p>
-                            <a href="">Javascript</a>
+                            <a href="./javascript.html">Javascript</a>
                         </p>
                         <p>
-                            <a href="">Java</a>
+                            <a href="./java.html">Java</a>
                         </p>
                     </div>
                     <div class="footer-3 col-lg-3 col-md-6 col-sm-6 col-6">
                         <h5>Courses</h5>
                         <p>
-                            <a href="">Flutter</a>
+                            <a href="./django.html">Django</a>
                         </p>
                         <p>
-                            <a href="">Django</a>
+                            <a href="./github.html">Git/Github</a>
                         </p>
                         <p>
-                            <a href="">Git/Github</a>
+                            <a href="./data-science.html">Data Science</a>
                         </p>
                         <p>
-                            <a href="">Data Science</a>
+                            <a href="./sql.html">SQL</a>
                         </p>
                         <p>
-                            <a href="">Node JS</a>
-                        </p>
-                        <p>
-                            <a href="">Cybersecurity</a>
-                        </p>
-                        <p>
-                            <a href="">Full-stack Development</a>
+                            <a href="./node-js.html">Node JS</a>
                         </p>
                     </div>
                     <div class="footer-3 col-lg-3 col-md-6 col-sm-6 col-6">
